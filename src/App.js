@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Geometrynodes from './Components/Geometrynodes'
+import Logo from './Components/Logo'
+import Firstscreen from './Screens/Firstscreen'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Geometrynodes />
+			<div className='overscroll-none bg-slate-400 snap-y snap-mandatory overflow-scroll h-screen scroll-smooth'>
+				<div className='App-header snap-start min-h-screen z-20'>
+					<Logo />
+				</div>
+				<div className='snap-start min-h-screen p-10'>
+					<Firstscreen />
+				</div>
+			</div>
+		</div>
+	)
 }
 
-export default App;
+export default App
