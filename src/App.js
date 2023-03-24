@@ -6,12 +6,12 @@ import Firstscreen from './Screens/Firstscreen'
 function App() {
 	return (
 		<div className='App'>
-			<Geometrynodes />
 			<div className='overscroll-none bg-slate-400 snap-y snap-mandatory overflow-scroll h-screen scroll-smooth'>
 				<div className='App-header snap-start min-h-screen z-20'>
+					<Geometrynodes />
 					<Logo />
 				</div>
-				<div className='snap-start min-h-screen p-10'>
+				<div className='snap-start min-h-screen p-5'>
 					<Firstscreen />
 				</div>
 			</div>

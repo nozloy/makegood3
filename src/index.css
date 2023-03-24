@@ -3,9 +3,40 @@
 @tailwind utilities;
 
 @layer components {
-
 	.neo {
 		box-shadow: 5px 5px 17px #727272, -5px -5px 17px #bebebed5;
+	}
+	.AccHeaders {
+		@apply !text-brown-100 hover:!text-yellow-600;
+	}
+	.AccDescription {
+		@apply !text-brown-50 !text-xl;
+	}
+
+	.buttons {
+		@apply neo mx-2 my-1 px-2 py-3 rounded-xl text-2xl text-brown-800 font-sans flex flex-row justify-center bg-white;
+	}
+
+	.links {
+		@apply flex flex-col mx-auto my-2 px-2;
+	}
+
+	.icon {
+		@apply mt-1 mr-2;
+	}
+}
+
+@layer utilities {
+	/* Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none;
+		/* IE and Edge */
+		scrollbar-width: none;
+		/* Firefox */
 	}
 }
 

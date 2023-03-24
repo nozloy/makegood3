@@ -17,7 +17,7 @@ const Geometrynodes = () => {
 	}, [])
 
 	return (
-		<div className='-z-0'>
+		<div className='-z-0 max-h-screen'>
 			<Particles
 				id='tsparticles'
 				init={particlesInit}
