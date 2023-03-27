@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.ymaps-2-1-79-ground-pane {
+  -webkit-filter: grayscale(100%);
+    		}
+.ymaps-2-1-79-map {
+  border-radius: 30px;
+}
 
 .App-logo {
   height: 40vmin;
