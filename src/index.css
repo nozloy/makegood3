@@ -14,7 +14,7 @@
 	}
 
 	.buttons {
-		@apply drop-shadow-xl shadow-xl mx-auto w-28 my-2 py-2 rounded-xl text-xl text-blue-gray-800 font-sans bg-white flex flex-col overflow-hidden;
+		@apply drop-shadow-xl shadow-xl mx-auto w-28 my-2 pb-2 pt-3 rounded-xl text-xl text-blue-gray-800 font-sans bg-white flex flex-col overflow-hidden;
 	}
 
 	/* .links {

@@ -9,7 +9,7 @@ const Maps = () => {
 		controls: [],
 	}
 	return (
-		<div className='YMaps relative rounded-2xl overflow-hidden'>
+		<div className='YMaps relative rounded-2xl overflow-hidden z-0'>
 			<YMaps>
 				<Map defaultState={defaultState} width={'100%'}>
 					<GeoObject
